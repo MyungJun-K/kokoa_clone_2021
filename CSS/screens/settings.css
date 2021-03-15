@@ -1,0 +1,43 @@
+.settings__setting{
+    padding: 20px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__setting-column {
+    display: flex;
+    align-items: center;
+}
+
+.settings__setting:nth-child(3) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings__setting i {
+    opacity: 0.8;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.settings__setting span {
+    margin-right: 20px;
+}
+
+.settings__setting-column:last-child{
+    opacity: 0.5;
+}
+
+.settings__setting-new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: tomato;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
